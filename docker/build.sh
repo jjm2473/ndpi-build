@@ -1,7 +1,7 @@
 
 docker run --privileged --rm tonistiigi/binfmt --install all || exit 1
 
-mkdir branch
+mkdir -p branch
 
 function build_os() {
 	local os=$1
